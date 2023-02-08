@@ -1,9 +1,21 @@
+import { useState, useEffect } from "react"
+import { ItemList } from '../ItemList/ItemList'
 
-
-const ItemListContainer = ({greeting}) => {
+export const ItemListContainer = () => {
+    const [productos, setProductos] = useState ([])
+    useEffect(() => {
+        fetch('./json/productos.json')
+        .then(response => response.json())
+        .then(products => {
+            const productsList = ItemList ({products})
+            console.log(productsList)
+            setProductos(productsList)
+        })
+    }, [])
   return (
-    <p style={{fontSize: '50px', textAlign: 'center'}}>{greeting}</p>
+    <div>
+        {productos}
+    </div>
   )
 }
 
-export default ItemListContainer
