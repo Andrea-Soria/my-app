@@ -1,1 +1,31 @@
+.cardProducto{
+    width: 18rem;
+    margin: 4px;
+    
+}
 
+.cardProductos {
+        margin: 4px;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.itemDetail{
+    max-width: 500px;
+    margin-top: 20px;
+
+}
+.imgDetail{
+    width: 150px;
+    height: 150px;
+}

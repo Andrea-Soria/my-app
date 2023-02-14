@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ItemCount = ({valorInicial, stock}) => {
+export const ItemCount = ({valorInicial, stock}) => {
     const [contador, setContador] = useState(valorInicial)
 
     const sumar = () => (contador < stock) && setContador (contador + 1)
@@ -16,4 +16,3 @@ const ItemCount = ({valorInicial, stock}) => {
   )
 }
 
-export default ItemCount
