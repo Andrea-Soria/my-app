@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -12,7 +11,7 @@ export const App = () => {
         <Navbar/>
           <Routes>
            <Route path='/' element={<ItemListContainer/>}/>
-           <Route path='/product/:id' element={<ItemDetailContainer/>}/>
+           <Route path='/item/:id' element={<ItemDetailContainer/>}/>
            <Route path='/category/:idCategoria' element={<ItemDetailContainer/>}/>
           </Routes>
       </BrowserRouter>
@@ -21,3 +20,7 @@ export const App = () => {
     </>
   )
 }
+
+
+
+    

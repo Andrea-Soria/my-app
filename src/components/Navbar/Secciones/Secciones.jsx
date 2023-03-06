@@ -1,17 +1,15 @@
-
+import { Link } from "react-router-dom"
 
 const Secciones = () => {
   return (
     <>
         <li className="nav-item">
-            <a className="nav-link" href="some">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="some">Comederos</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="some">Cuchas</a>
-          </li>
+          <Link className="nav-link dropdown" to={"/"} ><button className="btn btn">Inicio</button></Link>   
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to={"/contacto"}><button className="btn btn">Contacto</button></Link>
+        </li>
+        
     </>
   )
 }

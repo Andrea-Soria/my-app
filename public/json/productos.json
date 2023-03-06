@@ -2,37 +2,109 @@
     {
         "id": 1, 
         "idCategoria": 1,
-        "title": "Cuchita Redonda", 
-        "description": "Polar de primera calidad", 
+        "title": "Comedero Basico", 
+        "description": "Plastico duro", 
         "price": 3000, 
         "stock": 25,
-        "pictureUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_711546-MLA43531241684_092020-F.webp" 
+        "img": "comedero-basico.jpeg"
     },
     {
         "id": 2,
-        "idCategoria": 2,
-        "title": "Comedero Patitas", 
+        "idCategoria": 1,
+        "title": "Comedero Colores", 
         "description": "Acero inoxidable", 
         "price": 2500, 
         "stock": 50,
-        "pictureUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/880/994/products/4498e3ba7556104a5652aee6cd9b18035b16a08d113f4b2a21c9f412945de34810537511-4de7807d191c30185e16686241668868-640-0.png"
+        "img": "comedero-colores.jpeg"
     },
     {
         "id": 3, 
-        "idCategoria": 3,
-        "title": "Pechera", 
-        "description": "Regulable de neoprene", 
+        "idCategoria": 1,
+        "title": "Come Lento", 
+        "description": "Plastico duro", 
         "price": 1500,
         "stock": 72, 
-        "pictureUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_660540-MLA48704408934_122021-F.webp"
+        "img": "comedero-lento.jpeg"
     },
     {
         "id": 4, 
-        "idCategoria": 4,
-        "title": "Huesitos", 
-        "description": "Limpia dientes", 
+        "idCategoria": 1,
+        "title": "Comedero Pastel", 
+        "description": "Plastico duro", 
         "price": 1000, 
         "stock": 350,
-        "pictureUrl": "https://img-aws.ehowcdn.com/750x400p/photos.demandstudios.com/51/17/fotolia_1339025_XS.jpg"                   
+        "img": "comedero-pastel.jpeg"
+    },
+    {
+        "id": 5, 
+        "idCategoria": 2,
+        "title": "Correa Diseño", 
+        "description": "Tejido Rustico", 
+        "price": 5000, 
+        "stock": 150,
+        "img": "correa-diseño.jpeg"
+    },
+    {
+        "id": 6, 
+        "idCategoria": 2,
+        "title": "Correa Doble", 
+        "description": "Dos Correas en una", 
+        "price": 4500, 
+        "stock": 100,
+        "img": "correa-doble.jpeg"
+    },
+    {
+        "id": 7, 
+        "idCategoria": 2,
+        "title": "Pechera Reflectiva", 
+        "description": "Brilla en la oscuridad", 
+        "price": 4000, 
+        "stock": 250,
+        "img": "correa-pechera.jpeg"
+    },
+    {
+        "id": 8, 
+        "idCategoria": 2,
+        "title": "Correa Pequeños", 
+        "description": "Para razas pequeñas", 
+        "price": 3000, 
+        "stock": 100,
+        "img": "correa-pequeños.jpeg"
+    },
+    {
+        "id": 9, 
+        "idCategoria": 3,
+        "title": "Cucha Corderito", 
+        "description": "Corderito y polar", 
+        "price": 7000, 
+        "stock": 100,
+        "img": "cucha-corderito.jpeg"
+    },
+    {
+        "id": 10, 
+        "idCategoria": 3,
+        "title": "Cucha Perro", 
+        "description": "Cabecera con diseño", 
+        "price": 10000, 
+        "stock": 100,
+        "img": "cucha-perro.jpeg"
+    },
+    {
+        "id": 11, 
+        "idCategoria": 3,
+        "title": "Cucha Redonda", 
+        "description": "Redonda de peludito", 
+        "price": 8000, 
+        "stock": 100,
+        "img": "cucha-redonda.jpeg"
+    },
+    {
+        "id": 12, 
+        "idCategoria": 3,
+        "title": "Cucha Pink", 
+        "description": "Rosa con almohadones", 
+        "price": 15000, 
+        "stock": 80,
+        "img": "cucha-rosa.jpeg"
     }
 ]

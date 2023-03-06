@@ -4,7 +4,7 @@ export const ItemDetail = ({item}) => {
   return (
     <div className="row g-0">
         <div className="colmd-4">
-            <img src={item.pictureUrl} alt={`imagen de ${item.title}`} className="img fluid rounded-start imgDetail"/>
+            <img src={`../img/${item.img}`} alt={`imagen de ${item.title}`} className="img fluid rounded-start imgDetail"/>
          </div>
         <div className="col-md-8">
             <div className="card-body">
